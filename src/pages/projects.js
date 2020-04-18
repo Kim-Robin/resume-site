@@ -20,14 +20,17 @@ export default () => (
 	head="Awesome Project"
 	subhead="yada">
 	</Container>
+
 	<Container imgPath={key}
 	head="Another Super Amazing Project"
 	subhead="yada">
 	</Container>  
+
 	<Container imgPath={chip}
 	head="Showstopping Project"
 	subhead="yada">
 	</Container>
+	
 	</Layout>
 	<Footer />
   </div>
