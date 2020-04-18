@@ -2,6 +2,7 @@ import React from "react"
 import Menu from "../components/menu"
 import headerStyles from "./header.module.css"
 
+import me from "../images/inigo.jpg" 
 
 export default props => 
 <div>
@@ -11,6 +12,6 @@ export default props =>
 		<h1 style={{ fontSize: "48px" }}>{props.headerText}</h1>
 		<h2 style={{ fontSize: "16px" }}>{props.subhead}</h2>
 	</div>
-	<img className={headerStyles.avatar} src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" />
+	<img className={headerStyles.avatar} src={me} />
 </div>
 </div>

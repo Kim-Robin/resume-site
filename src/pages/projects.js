@@ -9,6 +9,7 @@ import chip from "../images/chip-sm.jpg"
 import key from "../images/keyboard-sm.jpg" 
 import old from "../images/old-sm.jpg" 
 
+
 export default () => (
  <div className="full">
   	<Header headerText="Projects"/>   
