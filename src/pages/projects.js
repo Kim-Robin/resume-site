@@ -28,10 +28,6 @@ export default () => (
 	head="Showstopping Project"
 	subhead="yada">
 	</Container>
-	<Container imgPath={phone}
-	head="Another Showstopping Project"
-	subhead="Now on mobile">
-	</Container>
 	</Layout>
 	<Footer />
   </div>
